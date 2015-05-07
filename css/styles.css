@@ -2,14 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
 /* Studio 359 Base System */
 /* SET ALL CONTAINERS TO USE INSIDE PADDING */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\000035}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000312}}
 html, body, #wrapper, #pagewrap {
   background-color: #fff;
   height: 100%;
@@ -18,12 +16,10 @@ html, body, #wrapper, #pagewrap {
   padding: 0; }
 
 /* Basic Styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000322}}
 img {
   width: 100%;
   height: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000327}}
 div, ul, li, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", "Open Sans", "Myriad Pro", Myriad, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
   font-weight: 300;
@@ -32,54 +28,43 @@ div, ul, li, p, h1, h2, h3, h4, h5, h6 {
   font-size: 0.89rem;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000336}}
 span {
   font-size: inherit; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000340}}
 p {
   font-size: 0.93rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000344}}
 .lead-in > p {
   font-size: 1.395rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000348}}
 h1, h3 {
   color: #e52020;
   margin-bottom: 0.4rem;
   font-weight: 600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000353}}
 h1 {
   font-size: 2.5575rem;
   margin-bottom: 0.6rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000358}}
 h2 {
   font-size: 1.86rem;
   font-weight: 100;
   margin-bottom: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000364}}
 h3 {
   font-size: 1.395rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000368}}
 h4 {
   font-size: 1.209rem;
   font-weight: 100;
   margin-bottom: 0.6rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000374}}
 strong, h3 {
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000378}}
 blockquote {
   margin: 0 0 15px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000382}}
 blockquote p {
   width: 75%;
   margin: 0 auto;
@@ -89,16 +74,13 @@ blockquote p {
   text-align: center;
   color: #e52020; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000392}}
 p, img {
   margin-bottom: 0.89rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\0000396}}
 a {
   color: #e52020;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003101}}
 a:hover {
   -webkit-transition: color 100ms linear;
   -moz-transition: color 100ms linear;
@@ -107,16 +89,13 @@ a:hover {
   transition: color 100ms linear;
   color: #e52020; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003110}}
 table {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003114}}
 td, th {
   padding: 15px;
   vertical-align: top; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003119}}
 input {
   color: #383838;
   padding: 5px;
@@ -124,7 +103,6 @@ input {
   width: 100%;
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003127}}
 .btn, .button {
   display: inline-block;
   background-color: #e52020;
@@ -146,12 +124,10 @@ input {
   background-image: none;
   border: 1px solid transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003149}}
 iframe {
   width: 100%; }
 
 /* Grid */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003155}}
 .clr:before,
 .clr:after,
 .clearfix:before,
@@ -164,7 +140,6 @@ iframe {
   display: table;
   clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003168}}
 .container {
   margin: 0 auto;
   padding: 0;
@@ -172,24 +147,19 @@ iframe {
   width: 100%; }
 
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003176}}
   .container {
     width: 360px;
     padding: 0 15px; } }
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003183}}
   .container {
     width: 540px; } }
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003189}}
   .container {
     width: 960px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003194}}
 .row {
   margin: 15px -15px;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003199}}
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, footer {
   position: relative;
   float: left;
@@ -198,67 +168,52 @@ iframe {
   width: 100%; }
 
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-1 {
     width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-2 {
     width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-3 {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-4 {
     width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-5 {
     width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-6 {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-7 {
     width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-8 {
     width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-9 {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-10 {
     width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-11 {
     width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003209}}
   .col-12 {
     width: 100%; } }
 /* Layout */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003216}}
 header {
   background-color: transparent;
   width: 100%;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003222}}
 section {
   position: relative;
   width: 100%; }
 
 /* Navigation */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003228}}
 header.nav-fixed {
   position: fixed;
   top: 0;
@@ -271,7 +226,6 @@ header.nav-fixed {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003241}}
 nav ul {
   list-style-type: none;
   position: relative;
@@ -279,7 +233,6 @@ nav ul {
   padding: 0;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003249}}
 nav ul > li {
   display: inline-block;
   float: none;
@@ -287,20 +240,16 @@ nav ul > li {
   line-height: 30px;
   margin: 0 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003257}}
 header > nav a {
   color: #383838; }
 
 /* Navigation Child Elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003262}}
 .parent {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003266}}
 .parent > a {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003270}}
 .nav-child {
   display: none;
   padding: 0;
@@ -309,7 +258,6 @@ header > nav a {
   border-top: 1px solid #fff;
   list-style-type: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003279}}
 .menu {
   padding: 0 5px;
   letter-spacing: 4px;
@@ -317,44 +265,36 @@ header > nav a {
   color: #e52020; }
 
 /* USEFUL */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003287}}
 .table {
   display: table;
   width: 100%;
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003293}}
 .table-cell {
   display: table-cell;
   vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003298}}
 .center {
   text-align: center; }
 
 /* FOOTER */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003304}}
 footer {
   background-color: #383838; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_359base\.scss}line{font-family:\00003309}}
 footer p, footer h1, footer h2, footer h3 {
   color: #fff; }
 
 /* FONTS */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\000033}}
 h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000311}}
 .contrast p, .contrast h1, .contrast h2, .contrast h3 {
   color: #fff; }
 
 /* HEADER */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000318}}
 #top-color {
   width: 100%;
   height: 4px;
@@ -364,7 +304,6 @@ h1, h2, h3 {
   top: 0;
   left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000328}}
 .sticky {
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-transition: all 200ms ease-out;
@@ -373,7 +312,6 @@ h1, h2, h3 {
   transition: all 200ms ease-out; }
 
 /* BACKGROUND */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000338}}
 .background {
   position: fixed;
   height: 100%;
@@ -387,27 +325,22 @@ h1, h2, h3 {
   background-position: 50% 50%; }
 
 /* SECTIONS */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000352}}
 section {
   width: 100%;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000357}}
 section.welcome {
   height: 50vmin; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000361}}
 section.welcome h2, section.welcome p {
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000365}}
 section.content {
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px; }
 
 /* SEARCH */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000372}}
 input.search {
   width: 33%;
   height: 33px;
@@ -415,21 +348,17 @@ input.search {
   background-color: rgba(255, 255, 255, 0.86); }
 
 /* FOOTER */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000381}}
 footer {
   min-height: 50px;
   background-color: #383838; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000388}}
 .border-wrap {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000392}}
 .border-circle, .border-indented {
   position: relative;
   height: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\0000397}}
 .border-circle {
   width: 50px;
   border-radius: 50px;
@@ -444,7 +373,6 @@ footer {
   -o-transition: transform .2s ease-in-out;
   transition: transform .2s ease-in-out; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\00003112}}
 .border-circle:hover {
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
@@ -452,7 +380,6 @@ footer {
   -o-transform: rotate(180deg);
   transform: rotate(180deg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Documents\/GitHub\/Act-Connected\/css\/_custom\.scss}line{font-family:\00003120}}
 .border-indented {
   margin-top: -15px;
   margin-left: -7px;
