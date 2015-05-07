@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('#welcome-close').click(function(){
-    $('.sign-up').toggleClass('open');
+    $('.sign-up').stop().toggleClass('open');
+    $('.border-circle').stop().toggleClass('down');
   });
 });
