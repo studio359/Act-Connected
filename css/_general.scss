@@ -1,0 +1,29 @@
+$container-width: 960px;
+$container-ratio: (9/16);
+$gutter-width: 15px;
+$columns: 12;
+
+// fonts //
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+$font-stack: "Raleway", "Open Sans", "Myriad Pro", Myriad, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
+$font-weight: 300;
+$font-weight-light: 100;
+$font-weight-bold: 700  ;
+$font-color: #383838;
+$p-size: 0.93rem;
+
+$background-color: #fff;
+$brand-color: #e52020;
+$contrast-color: #fff;
+$contrast-color-rgba: rgba(255,255,255,0.9);
+$secondary-color: #fff;
+$tertiary-color: #383838;
+$neutral-color: #383838;
+$link-color: $brand-color;
+$link-hover: $link-color;
+
+
+@mixin header-customisations(){
+  background-color: #fff;
+}

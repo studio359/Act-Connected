@@ -1,0 +1,312 @@
+/* Studio 359 Base System */
+
+/* SET ALL CONTAINERS TO USE INSIDE PADDING */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  outline: none;
+}
+
+html, body, #wrapper, #pagewrap {
+  background-color: #fff; 
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic Styles */
+
+img {
+  width: 100%;
+  height: auto; 
+}
+
+div, ul, li, p, h1, h2, h3, h4, h5, h6 {
+  font-family: $font-stack;
+  font-weight: $font-weight;
+  font-style: normal;
+  color: $font-color;
+  font-size: 0.89rem;
+  margin: 0; 
+}
+
+span {
+  font-size:inherit;
+}
+
+p {
+  font-size: $p-size;
+}
+
+.lead-in > p {
+  font-size: $p-size * 1.5;
+}
+
+h1, h3 {
+  color: $brand-color;
+  margin-bottom: 0.4rem;
+  font-weight: 600; }
+
+h1 {
+  font-size: $p-size * 2.75; 
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: $p-size * 2;
+  font-weight: 100; 
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: $p-size * 1.5; 
+}
+
+h4 {
+  font-size: $p-size * 1.3; 
+  font-weight: $font-weight-light;
+  margin-bottom: 0.6rem;  
+}
+
+strong, h3 {
+  font-weight: $font-weight-bold; 
+}
+
+blockquote {
+  margin:0 0 $gutter-width 0;
+}
+
+blockquote p {
+  width:75%;
+  margin:0 auto;
+  padding: $gutter-width;
+  font-size:$p-size * 2;
+  font-style:italic;
+  text-align:center;
+  color: $brand-color;
+}
+
+p, img {
+  margin-bottom: 0.89rem; 
+}
+
+a {
+  color: $link-color;
+  text-decoration: none; 
+}
+
+a:hover {
+  -webkit-transition: color 100ms linear;
+  -moz-transition: color 100ms linear;
+  -o-transition: color 100ms linear;
+  -ms-transition: color 100ms linear;
+  transition: color 100ms linear;
+  color: $link-hover;
+}
+
+table {
+    width:100%;
+}
+
+td, th {
+    padding: $gutter-width;
+    vertical-align: top;
+}
+
+input {
+  color: $font-color;
+  padding:5px;
+  margin: 5px 0;
+  width: 100%;
+  border: none;
+}
+
+.btn, .button {
+  display: inline-block;
+  background-color: $brand-color;
+  color: $contrast-color;
+  padding: 6px 12px;
+  font-size: $p-size;
+  font-weight: $font-weight;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+iframe {
+    width:100%;
+}
+
+/* Grid */
+
+.clr:before,
+.clr:after,
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 100%; 
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: $container-width * ($container-ratio / 1.5);
+    padding: 0 $gutter-width; 
+  } 
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: $container-width * $container-ratio; 
+  } 
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: $container-width; 
+  } 
+}
+
+.row {
+  margin: ($gutter-width) (-$gutter-width);
+  position: relative; 
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, footer {
+  position: relative;
+  float: left;
+  padding: $gutter-width;
+  min-height: 1px;
+  width: 100%; 
+}
+
+@media(min-width: 768px) {
+  @for $i from 1 through $columns {
+    .col-#{$i} {
+      width: ((100 / $columns) * $i) * 1%;
+    }
+  }
+}
+
+/* Layout */
+header {
+  background-color: transparent; 
+  width:100%;
+  position:relative;
+}
+
+section {
+  position: relative;
+  width: 100%;
+}
+
+/* Navigation */
+header.nav-fixed {
+  position: fixed;
+  top: 0;
+  left:0;
+  -webkit-transform:translateZ(1000px);
+  -moz-transform:translateZ(1000px);
+  -o-transform:translateZ(1000px);
+  transform:translateZ(1000px);
+  z-index: 1000;
+  background-color: $contrast-color;
+  background-color: $contrast-color-rgba;
+}
+
+nav ul {
+  list-style-type: none;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0; 
+}
+
+nav ul > li {
+  display: inline-block;
+  float: none;
+  padding: 5px 0;
+  line-height: 30px; 
+  margin: 0 $gutter-width; 
+}
+
+header > nav a {
+  color: $neutral-color;
+}
+
+/* Navigation Child Elements */
+.parent {
+  position: relative; 
+}
+
+.parent > a {
+    position: relative;
+}
+
+.nav-child {
+    display: none;
+    padding:0;
+    background-color: $neutral-color;
+    margin-top:6px;
+    border-top: 1px solid $contrast-color;
+    list-style-type: none;
+}
+
+.menu {
+    padding: 0 5px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    color: $brand-color;
+}
+
+/* USEFUL */
+.table {
+  display: table;
+  width:100%;
+  height:100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center {
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: $neutral-color;
+}
+
+footer {
+  & p,& h1, & h2, & h3 {
+    color:#fff;
+  }
+}
