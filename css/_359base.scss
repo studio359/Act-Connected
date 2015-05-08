@@ -9,12 +9,16 @@
   outline: none;
 }
 
-html, body, #wrapper, #pagewrap {
+html, body {
   background-color: #fff; 
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+#wrapper, #pagewrap {
+  min-height: 100%;
 }
 
 /* Basic Styles */

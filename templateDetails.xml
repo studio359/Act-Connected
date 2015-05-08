@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="1.1" type="template" client="site" method="upgrade">
+	
+	<name>Escape Technology Joomla Template</name><!-- name the template -->
+	<creationDate>2014-08-30</creationDate><!-- the date your are beginn to code -->
+	<author>Dominic Danson</author><!-- your name (oops, I repeat myself) -->
+	<copyright>Copyright © Studio 359 Ltd. www.studio359.co.uk</copyright><!-- for who you are coding -->
+	<authorEmail>dominic@studio359.co.uk</authorEmail><!-- your email address -->
+	<authorUrl>http://www.studio359.co.uk</authorUrl><!-- your url -->
+	<version>1.0.0</version><!-- give your template a number -->
+	<description><![CDATA[ 
+		<h1>Escape Technology Joomla Template</h1>
+		<p>Created by Dominic Danson</p>
+	]]></description><!-- change the description as you like -->
+	
+	<files><!-- no need to change -->
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions><!-- define the positions for modules here -->
+		<position>menu</position>
+        <position>search</position>
+        <position>language</position>
+        <position>breadcrumbs</position>
+        <position>background</position>
+        <position>before-content</position>
+        <position>filter-menu</position>
+        <position>after-content</position>
+        <position>after-wrap</position>
+        <position>featured-stories</position>
+        <position>vendors</position>
+        <position>sidebar</position>
+        <position>who-to-call</position>
+        <position>after-content-inside</position>
+	</positions>
+	
+</extension>
