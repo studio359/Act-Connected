@@ -101,7 +101,8 @@ input {
   padding: 5px;
   margin: 5px 0;
   width: 100%;
-  border: none; }
+  border: none;
+  border-radius: 3px; }
 
 .btn, .button {
   display: inline-block;
@@ -122,7 +123,9 @@ input {
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border: 1px solid transparent; }
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin: 15px 0; }
 
 iframe {
   width: 100%; }
@@ -148,14 +151,14 @@ iframe {
 
 @media (min-width: 768px) {
   .container {
-    width: 360px;
+    width: 412.5px;
     padding: 0 15px; } }
 @media (min-width: 992px) {
   .container {
-    width: 540px; } }
+    width: 618.75px; } }
 @media (min-width: 1200px) {
   .container {
-    width: 960px; } }
+    width: 1100px; } }
 .row {
   margin: 15px -15px;
   position: relative; }
@@ -285,11 +288,17 @@ footer p, footer h1, footer h2, footer h3 {
   color: #fff; }
 
 /* FONTS */
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase; }
+
+h4, h5 {
+  font-weight: 100; }
+
+h5 {
+  color: #fff; }
 
 .contrast p, .contrast h1, .contrast h2, .contrast h3 {
   color: #fff; }
@@ -327,6 +336,7 @@ h1, h2, h3 {
 /* SECTIONS */
 section.sign-up {
   max-height: 0;
+  opacity: 0;
   overflow: hidden;
   -moz-transition: all .4s ease-out;
   -webkit-transition: all .4s ease-out;
@@ -335,7 +345,9 @@ section.sign-up {
   transition: all .4s ease-out; }
 
 section.sign-up.open {
-  max-height: 500px;
+  max-height: 1000px;
+  opacity: 1;
+  margin-bottom: 50px;
   -moz-transition: all .4s ease-out;
   -webkit-transition: all .4s ease-out;
   -ms-transition: all .4s ease-out;
@@ -352,6 +364,26 @@ section.content {
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px; }
+
+/* FRONT PAGE */
+/* registration */
+.front-page.register > div {
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  color: #fff; }
+
+.front-page.register input {
+  color: #999; }
+
+/* about */
+.front-page.about > div {
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px; }
+
+.front-page.about p {
+  color: #fff; }
 
 /* FANCY BORDERS */
 .border-wrap {

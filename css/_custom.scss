@@ -1,10 +1,18 @@
 /* FONTS */
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab', serif;
   font-weight: $font-weight-bold;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+h4, h5 {
+  font-weight: 100;
+}
+
+h5 {
+  color:#fff;
 }
 
 .contrast {
@@ -52,6 +60,7 @@ h1, h2, h3 {
 
 section.sign-up {
   max-height: 0;
+  opacity:0;
   overflow: hidden;
   -moz-transition: all .4s ease-out;
   -webkit-transition: all .4s ease-out;
@@ -61,7 +70,9 @@ section.sign-up {
 }
 
 section.sign-up.open {
-  max-height:500px;
+  max-height:1000px;
+  opacity:1;
+  margin-bottom: 50px;
   -moz-transition: all .4s ease-out;
   -webkit-transition: all .4s ease-out;
   -ms-transition: all .4s ease-out;
@@ -81,6 +92,31 @@ section.content {
   background-color: #fff;
   padding-top: $gutter-width;
   padding-bottom: $gutter-width;
+}
+
+
+/* FRONT PAGE */
+/* registration */
+.front-page.register > div {
+  background-color: #000;
+  background-color: rgba(0,0,0,0.8);
+  padding:$gutter-width;
+  color:#fff;
+}
+
+.front-page.register input {
+  color:#999;
+}
+
+/* about */
+.front-page.about > div {
+  background-color: #000;
+  background-color: rgba(0,0,0,0.8);
+  padding:$gutter-width;
+}
+
+.front-page.about p {
+  color: #fff;
 }
 
 /* FANCY BORDERS */
