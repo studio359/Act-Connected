@@ -42,11 +42,9 @@ unset($this->_styleSheets[JURI::root(true).'/media/system/css/modal.css']);
 </head>
 <body>
   <div id="wrapper">
+    <div class="background"></div>
+    <div id="top-color"></div>
     <div id="pagewrap">
-      <div class="background">
-      </div>
-      <div id="top-color">
-      </div>
       <jdoc:include type="modules" name="menu" style="none" />
       <jdoc:include type="modules" name="wide-top-0" style="none" />
       <jdoc:include type="modules" name="wide-top-1" style="none" />

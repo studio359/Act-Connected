@@ -18,6 +18,7 @@ html, body {
 }
 
 #wrapper, #pagewrap {
+  position: relative;
   min-height: 100%;
 }
 
@@ -309,6 +310,7 @@ header > nav a {
 /* FOOTER */
 
 footer {
+  position: relative;
   background-color: $neutral-color;
 }
 

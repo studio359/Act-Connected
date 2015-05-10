@@ -59,6 +59,12 @@ h4 {
   background-size: 100%;
   background-size: cover;
   background-position: 50% 50%;
+  z-index: 10;
+}
+
+#pagewrap {
+  z-index: 20;
+  padding-top: 8px;
 }
 
 /* SECTIONS */
@@ -207,6 +213,7 @@ input.search {
 footer {
   min-height:50px;
   background-color:$neutral-color;
+  z-index: 20;
 }
 
 

@@ -16,6 +16,7 @@ html, body {
   padding: 0; }
 
 #wrapper, #pagewrap {
+  position: relative;
   min-height: 100%; }
 
 /* Basic Styles */
@@ -285,6 +286,7 @@ header > nav a {
 
 /* FOOTER */
 footer {
+  position: relative;
   background-color: #383838; }
 
 footer p, footer h1, footer h2, footer h3 {
@@ -338,7 +340,12 @@ h4 {
   background-repeat: no-repeat;
   background-size: 100%;
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  z-index: 10; }
+
+#pagewrap {
+  z-index: 20;
+  padding-top: 8px; }
 
 /* SECTIONS */
 section.sign-up {
@@ -462,7 +469,8 @@ input.search {
 /* FOOTER */
 footer {
   min-height: 50px;
-  background-color: #383838; }
+  background-color: #383838;
+  z-index: 20; }
 
 .placeholder {
   width: 100%;
